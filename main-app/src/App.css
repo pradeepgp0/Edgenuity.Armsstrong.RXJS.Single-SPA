@@ -1,0 +1,101 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+#root {
+    height: 100%;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #E7E8EA !important;
+}
+
+#react-app .App {
+    text-align: left !important ;
+    background-color: blue;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    height: 16px;
+    padding: 20px;
+    color: #bbbbbb;
+    background-color: #1D262C;
+    font-size: 18px;
+    text-transform: uppercase !important;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-content {
+    font-size: large;
+    display: flex;
+    flex-grow: 1;
+}
+
+.App-content > * {
+    margin-bottom: 10px;
+}
+
+.Menu {
+    height: 100%;
+}
+
+
+.App-container {
+    flex-grow: 1;
+    overflow: auto;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.Menu {
+    background-color: #1D262C !important;
+    border-top: 1px solid #44BA55;
+}
+
+.Menu-Item {
+    padding: 15px 30px;
+    cursor: pointer;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    font-size: 18px;
+    color: #939599;
+}
+
+.Menu-Item--Selected, .Menu-Item--Selected:hover { 
+    background-color: #111619 !important;
+    color: #3BB44A !important;
+    border-left: 1px solid #3BB44A;
+}
+
+.Menu-Item:hover {
+    background-color: #212C32 !important;
+    color: #71d77d;
+}
+
+.appFlex {
+    display: flex;
+    flex-direction: row;
+}
